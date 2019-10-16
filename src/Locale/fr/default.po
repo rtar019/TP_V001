@@ -1,0 +1,539 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2019-10-15 17:49-0400\n"
+"PO-Revision-Date: 2019-10-15 18:16-0400\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.2.4\n"
+"Last-Translator: \n"
+"Language: fr\n"
+
+#: Controller/BookingsController.php:58 Controller/BookingsController.php:92
+msgid "The booking has been saved."
+msgstr "La réservation a été enregistrée."
+
+#: Controller/BookingsController.php:62 Controller/BookingsController.php:96
+msgid "The booking could not be saved. Please, try again."
+msgstr "La réservation n'a pas pu être enregistrée. Veuillez réessayer."
+
+#: Controller/BookingsController.php:117
+msgid "The booking has been deleted."
+msgstr "La réservation a été supprimée."
+
+#: Controller/BookingsController.php:119
+msgid "The booking could not be deleted. Please, try again."
+msgstr "La réservation n'a pas pu être supprimée. Veuillez réessayer."
+
+#: Controller/GuestsController.php:54 Controller/GuestsController.php:78
+msgid "The guest has been saved."
+msgstr "L'invité a été enregistré."
+
+#: Controller/GuestsController.php:58 Controller/GuestsController.php:82
+msgid "The guest could not be saved. Please, try again."
+msgstr "L'invité n'a pas pu être enregistré. Veuillez réessayer."
+
+#: Controller/GuestsController.php:99
+msgid "The guest has been deleted."
+msgstr "L'invité a été supprimé."
+
+#: Controller/GuestsController.php:101
+msgid "The guest could not be deleted. Please, try again."
+msgstr "L'invité n'a pas pu être supprimé. Veuillez réessayer."
+
+#: Controller/HotelsController.php:54 Controller/HotelsController.php:78
+msgid "The hotel has been saved."
+msgstr "L'hôtel a été sauvé."
+
+#: Controller/HotelsController.php:58 Controller/HotelsController.php:82
+msgid "The hotel could not be saved. Please, try again."
+msgstr "L'hôtel n'a pas pu être sauvé. Veuillez réessayer."
+
+#: Controller/HotelsController.php:99
+msgid "The hotel has been deleted."
+msgstr "L'hôtel a été supprimé."
+
+#: Controller/HotelsController.php:101
+msgid "The hotel could not be deleted. Please, try again."
+msgstr "L'hôtel n'a pas pu être supprimé. Veuillez réessayer."
+
+#: Controller/PaymentsController.php:54 Controller/PaymentsController.php:78
+msgid "The payment has been saved."
+msgstr "Le paiement a été enregistré."
+
+#: Controller/PaymentsController.php:58 Controller/PaymentsController.php:82
+msgid "The payment could not be saved. Please, try again."
+msgstr "Le paiement n'a pas pu être enregistré. Veuillez réessayer."
+
+#: Controller/PaymentsController.php:99
+msgid "The payment has been deleted."
+msgstr "Le paiement a été supprimé."
+
+#: Controller/PaymentsController.php:101
+msgid "The payment could not be deleted. Please, try again."
+msgstr "Le paiement n'a pas pu être supprimé. Veuillez réessayer."
+
+#: Controller/RoomsController.php:57 Controller/RoomsController.php:82
+msgid "The room has been saved."
+msgstr "La salle a été enregistrée."
+
+#: Controller/RoomsController.php:61 Controller/RoomsController.php:86
+msgid "The room could not be saved. Please, try again."
+msgstr "La pièce n'a pas pu être sauvée. Veuillez réessayer."
+
+#: Controller/RoomsController.php:104
+msgid "The room has been deleted."
+msgstr "La salle a été supprimée."
+
+#: Controller/RoomsController.php:106
+msgid "The room could not be deleted. Please, try again."
+msgstr "La salle n'a pas pu être supprimée. Veuillez réessayer."
+
+#: Controller/UsersController.php:54 Controller/UsersController.php:78
+msgid "The user has been saved."
+msgstr "L'utilisateur a été enregistré."
+
+#: Controller/UsersController.php:58 Controller/UsersController.php:82
+msgid "The user could not be saved. Please, try again."
+msgstr "L'utilisateur n'a pas pu être enregistré. Veuillez réessayer."
+
+#: Controller/UsersController.php:99
+msgid "The user has been deleted."
+msgstr "L'utilisateur a été supprimé."
+
+#: Controller/UsersController.php:101
+msgid "The user could not be deleted. Please, try again."
+msgstr "L'utilisateur n'a pas pu être supprimé. Veuillez réessayer."
+
+#: Template/Bookings/add.ctp:9 Template/Bookings/edit.ctp:9
+#: Template/Bookings/index.ctp:9 Template/Bookings/index.ctp:33
+#: Template/Bookings/view.ctp:9 Template/Bookings/view.ctp:65
+#: Template/Guests/add.ctp:9 Template/Guests/edit.ctp:9
+#: Template/Guests/index.ctp:9 Template/Guests/index.ctp:22
+#: Template/Guests/view.ctp:9 Template/Guests/view.ctp:42
+#: Template/Hotels/add.ctp:9 Template/Hotels/edit.ctp:9
+#: Template/Hotels/index.ctp:9 Template/Hotels/index.ctp:24
+#: Template/Hotels/view.ctp:9 Template/Hotels/view.ctp:46
+#: Template/Payments/add.ctp:9 Template/Payments/edit.ctp:9
+#: Template/Payments/index.ctp:9 Template/Payments/index.ctp:24
+#: Template/Payments/view.ctp:9 Template/Payments/view.ctp:50
+#: Template/Rooms/add.ctp:9 Template/Rooms/edit.ctp:9
+#: Template/Rooms/index.ctp:9 Template/Rooms/index.ctp:25
+#: Template/Rooms/view.ctp:9 Template/Rooms/view.ctp:48
+#: Template/Users/add.ctp:9 Template/Users/edit.ctp:9
+#: Template/Users/index.ctp:9 Template/Users/index.ctp:25
+#: Template/Users/view.ctp:9 Template/Users/view.ctp:54
+msgid "Actions"
+msgstr "Actions"
+
+#: Template/Bookings/add.ctp:10 Template/Bookings/edit.ctp:16
+#: Template/Bookings/view.ctp:12 Template/Guests/add.ctp:11
+#: Template/Guests/edit.ctp:17 Template/Guests/index.ctp:11
+#: Template/Guests/view.ctp:14 Template/Payments/add.ctp:11
+#: Template/Payments/edit.ctp:17 Template/Payments/index.ctp:11
+#: Template/Payments/view.ctp:14 Template/Rooms/add.ctp:13
+#: Template/Rooms/edit.ctp:19 Template/Rooms/index.ctp:13
+#: Template/Rooms/view.ctp:16 Template/Users/add.ctp:11
+#: Template/Users/edit.ctp:17 Template/Users/index.ctp:11
+#: Template/Users/view.ctp:14
+msgid "List Bookings"
+msgstr "Liste des réservations"
+
+#: Template/Bookings/add.ctp:11 Template/Bookings/edit.ctp:17
+#: Template/Bookings/index.ctp:11 Template/Bookings/view.ctp:14
+#: Template/Users/add.ctp:10 Template/Users/edit.ctp:16
+#: Template/Users/view.ctp:12
+msgid "List Users"
+msgstr "Liste des utilisateurs"
+
+#: Template/Bookings/add.ctp:12 Template/Bookings/edit.ctp:18
+#: Template/Bookings/index.ctp:12 Template/Bookings/view.ctp:15
+#: Template/Users/index.ctp:10 Template/Users/view.ctp:13
+msgid "New User"
+msgstr "Nouvel utilisateur"
+
+#: Template/Bookings/add.ctp:13 Template/Bookings/edit.ctp:19
+#: Template/Bookings/index.ctp:13 Template/Bookings/view.ctp:16
+#: Template/Hotels/add.ctp:11 Template/Hotels/edit.ctp:17
+#: Template/Hotels/index.ctp:11 Template/Hotels/view.ctp:14
+#: Template/Rooms/add.ctp:10 Template/Rooms/edit.ctp:16
+#: Template/Rooms/view.ctp:12
+msgid "List Rooms"
+msgstr "Liste des chambres"
+
+#: Template/Bookings/add.ctp:14 Template/Bookings/edit.ctp:20
+#: Template/Bookings/index.ctp:14 Template/Bookings/view.ctp:17
+#: Template/Hotels/add.ctp:12 Template/Hotels/edit.ctp:18
+#: Template/Hotels/index.ctp:12 Template/Hotels/view.ctp:15
+#: Template/Rooms/index.ctp:10 Template/Rooms/view.ctp:13
+msgid "New Room"
+msgstr "Nouvelle pièce"
+
+#: Template/Bookings/add.ctp:15 Template/Bookings/edit.ctp:21
+#: Template/Bookings/index.ctp:15 Template/Bookings/view.ctp:18
+#: Template/Guests/add.ctp:10 Template/Guests/edit.ctp:16
+#: Template/Guests/view.ctp:12
+msgid "List Guests"
+msgstr "Liste des invités"
+
+#: Template/Bookings/add.ctp:16 Template/Bookings/edit.ctp:22
+#: Template/Bookings/index.ctp:16 Template/Bookings/view.ctp:19
+#: Template/Guests/index.ctp:10 Template/Guests/view.ctp:13
+msgid "New Guest"
+msgstr "Nouvel invité"
+
+#: Template/Bookings/add.ctp:17 Template/Bookings/edit.ctp:23
+#: Template/Bookings/index.ctp:17 Template/Bookings/view.ctp:20
+#: Template/Payments/add.ctp:10 Template/Payments/edit.ctp:16
+#: Template/Payments/view.ctp:12
+msgid "List Payments"
+msgstr "Liste des paiements"
+
+#: Template/Bookings/add.ctp:18 Template/Bookings/edit.ctp:24
+#: Template/Bookings/index.ctp:18 Template/Bookings/view.ctp:21
+#: Template/Payments/index.ctp:10 Template/Payments/view.ctp:13
+msgid "New Payment"
+msgstr "Nouveau paiement"
+
+#: Template/Bookings/add.ctp:24
+msgid "Add Booking"
+msgstr "Ajouter une réservation"
+
+#: Template/Bookings/add.ctp:34 Template/Bookings/edit.ctp:40
+#: Template/Guests/add.ctp:23 Template/Guests/edit.ctp:29
+#: Template/Hotels/add.ctp:25 Template/Hotels/edit.ctp:31
+#: Template/Payments/add.ctp:25 Template/Payments/edit.ctp:31
+#: Template/Rooms/add.ctp:26 Template/Rooms/edit.ctp:32
+#: Template/Users/add.ctp:24 Template/Users/edit.ctp:30
+msgid "Submit"
+msgstr "Soumettre"
+
+#: Template/Bookings/edit.ctp:11 Template/Bookings/index.ctp:49
+#: Template/Bookings/view.ctp:76 Template/Guests/edit.ctp:11
+#: Template/Guests/index.ctp:33 Template/Guests/view.ctp:56
+#: Template/Hotels/edit.ctp:11 Template/Hotels/index.ctp:37
+#: Template/Hotels/view.ctp:56 Template/Payments/edit.ctp:11
+#: Template/Payments/index.ctp:37 Template/Payments/view.ctp:64
+#: Template/Rooms/edit.ctp:11 Template/Rooms/index.ctp:37
+#: Template/Rooms/view.ctp:62 Template/Users/edit.ctp:11
+#: Template/Users/index.ctp:39 Template/Users/view.ctp:68
+msgid "Delete"
+msgstr "Effacer"
+
+#: Template/Bookings/edit.ctp:13 Template/Bookings/index.ctp:49
+#: Template/Bookings/view.ctp:11 Template/Bookings/view.ctp:76
+#: Template/Guests/edit.ctp:13 Template/Guests/index.ctp:33
+#: Template/Guests/view.ctp:11 Template/Guests/view.ctp:56
+#: Template/Hotels/edit.ctp:13 Template/Hotels/index.ctp:37
+#: Template/Hotels/view.ctp:11 Template/Hotels/view.ctp:56
+#: Template/Payments/edit.ctp:13 Template/Payments/index.ctp:37
+#: Template/Payments/view.ctp:11 Template/Payments/view.ctp:64
+#: Template/Rooms/edit.ctp:13 Template/Rooms/index.ctp:37
+#: Template/Rooms/view.ctp:11 Template/Rooms/view.ctp:62
+#: Template/Users/edit.ctp:13 Template/Users/index.ctp:39
+#: Template/Users/view.ctp:11 Template/Users/view.ctp:68
+msgid "Are you sure you want to delete # {0}?"
+msgstr "Êtes-vous sûr de vouloir supprimer # {0} ?"
+
+#: Template/Bookings/edit.ctp:30 Template/Bookings/view.ctp:10
+msgid "Edit Booking"
+msgstr "Modifier la réservation"
+
+#: Template/Bookings/index.ctp:10 Template/Bookings/view.ctp:13
+#: Template/Guests/add.ctp:12 Template/Guests/edit.ctp:18
+#: Template/Guests/index.ctp:12 Template/Guests/view.ctp:15
+#: Template/Payments/add.ctp:12 Template/Payments/edit.ctp:18
+#: Template/Payments/index.ctp:12 Template/Payments/view.ctp:15
+#: Template/Rooms/add.ctp:14 Template/Rooms/edit.ctp:20
+#: Template/Rooms/index.ctp:14 Template/Rooms/view.ctp:17
+#: Template/Users/add.ctp:12 Template/Users/edit.ctp:18
+#: Template/Users/index.ctp:12 Template/Users/view.ctp:15
+msgid "New Booking"
+msgstr "Nouvelle réservation"
+
+#: Template/Bookings/index.ctp:22
+msgid "Bookings"
+msgstr "Les réservations"
+
+#: Template/Bookings/index.ctp:47 Template/Bookings/view.ctp:74
+#: Template/Guests/index.ctp:31 Template/Guests/view.ctp:54
+#: Template/Hotels/index.ctp:35 Template/Hotels/view.ctp:54
+#: Template/Payments/index.ctp:35 Template/Payments/view.ctp:62
+#: Template/Rooms/index.ctp:35 Template/Rooms/view.ctp:60
+#: Template/Users/index.ctp:37 Template/Users/view.ctp:66
+#: View/Helper/PaginatorHelper.php:1269
+msgid "View"
+msgstr "Vue"
+
+#: Template/Bookings/index.ctp:48 Template/Bookings/view.ctp:75
+#: Template/Guests/index.ctp:32 Template/Guests/view.ctp:55
+#: Template/Hotels/index.ctp:36 Template/Hotels/view.ctp:55
+#: Template/Payments/index.ctp:36 Template/Payments/view.ctp:63
+#: Template/Rooms/index.ctp:36 Template/Rooms/view.ctp:61
+#: Template/Users/index.ctp:38 Template/Users/view.ctp:67
+msgid "Edit"
+msgstr "Modifier"
+
+#: Template/Bookings/index.ctp:57 Template/Guests/index.ctp:41
+#: Template/Hotels/index.ctp:45 Template/Payments/index.ctp:45
+#: Template/Rooms/index.ctp:45 Template/Users/index.ctp:47
+msgid "first"
+msgstr "première"
+
+#: Template/Bookings/index.ctp:58 Template/Guests/index.ctp:42
+#: Template/Hotels/index.ctp:46 Template/Payments/index.ctp:46
+#: Template/Rooms/index.ctp:46 Template/Users/index.ctp:48
+msgid "previous"
+msgstr "précédent"
+
+#: Template/Bookings/index.ctp:60 Template/Guests/index.ctp:44
+#: Template/Hotels/index.ctp:48 Template/Payments/index.ctp:48
+#: Template/Rooms/index.ctp:48 Template/Users/index.ctp:50
+msgid "next"
+msgstr "suivant"
+
+#: Template/Bookings/index.ctp:61 Template/Guests/index.ctp:45
+#: Template/Hotels/index.ctp:49 Template/Payments/index.ctp:49
+#: Template/Rooms/index.ctp:49 Template/Users/index.ctp:51
+msgid "last"
+msgstr "dernier"
+
+#: Template/Bookings/index.ctp:63 Template/Guests/index.ctp:47
+#: Template/Hotels/index.ctp:51 Template/Payments/index.ctp:51
+#: Template/Rooms/index.ctp:51 Template/Users/index.ctp:53
+msgid "Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total"
+msgstr "Page {{page}} sur {{pages}}, affichant le {{courant}} enregistrement (s) sur le {{nombre}} total"
+
+#: Template/Bookings/view.ctp:11
+msgid "Delete Booking"
+msgstr "Supprimer la réservation"
+
+#: Template/Bookings/view.ctp:28
+msgid "User"
+msgstr "Utilisateur"
+
+#: Template/Bookings/view.ctp:32
+msgid "Room"
+msgstr "Pièce"
+
+#: Template/Bookings/view.ctp:36
+msgid "Guest"
+msgstr "Client"
+
+#: Template/Bookings/view.ctp:40 Template/Bookings/view.ctp:61
+#: Template/Guests/view.ctp:26 Template/Guests/view.ctp:35
+#: Template/Hotels/view.ctp:30 Template/Hotels/view.ctp:43
+#: Template/Payments/view.ctp:22 Template/Payments/view.ctp:43
+#: Template/Rooms/view.ctp:32 Template/Rooms/view.ctp:41
+#: Template/Users/view.ctp:30 Template/Users/view.ctp:47
+msgid "Id"
+msgstr "Id"
+
+#: Template/Bookings/view.ctp:44 Template/Guests/view.ctp:38
+#: Template/Payments/view.ctp:46 Template/Rooms/view.ctp:44
+#: Template/Users/view.ctp:50
+msgid "Payment Id"
+msgstr "ID de paiement"
+
+#: Template/Bookings/view.ctp:48 Template/Guests/view.ctp:40
+#: Template/Payments/view.ctp:48 Template/Rooms/view.ctp:46
+#: Template/Users/view.ctp:52
+msgid "Date From"
+msgstr "Dater de"
+
+#: Template/Bookings/view.ctp:52 Template/Guests/view.ctp:41
+#: Template/Payments/view.ctp:49 Template/Rooms/view.ctp:47
+#: Template/Users/view.ctp:53
+msgid "Date To"
+msgstr "Date à"
+
+#: Template/Bookings/view.ctp:57
+msgid "Related Payments"
+msgstr "Paiements liés"
+
+#: Template/Bookings/view.ctp:62 Template/Payments/view.ctp:26
+msgid "Booking Id"
+msgstr "Identifiant de réservation"
+
+#: Template/Bookings/view.ctp:63 Template/Payments/view.ctp:34
+msgid "Payment Date"
+msgstr "Date de paiement"
+
+#: Template/Bookings/view.ctp:64 Template/Payments/view.ctp:30
+msgid "Payment Amount"
+msgstr "Montant du paiement"
+
+#: Template/Guests/add.ctp:18
+msgid "Add Guest"
+msgstr "Ajouter un invité"
+
+#: Template/Guests/edit.ctp:24 Template/Guests/view.ctp:10
+msgid "Edit Guest"
+msgstr "Modifier un invité"
+
+#: Template/Guests/index.ctp:16
+msgid "Guests"
+msgstr "Invités"
+
+#: Template/Guests/view.ctp:11
+msgid "Delete Guest"
+msgstr "Supprimer un invité"
+
+#: Template/Guests/view.ctp:22
+msgid "Guest Details"
+msgstr "Détails de l'invité"
+
+#: Template/Guests/view.ctp:31 Template/Payments/view.ctp:39
+#: Template/Rooms/view.ctp:37 Template/Users/view.ctp:43
+msgid "Related Bookings"
+msgstr "Réservations connexes"
+
+#: Template/Guests/view.ctp:36 Template/Payments/view.ctp:44
+#: Template/Rooms/view.ctp:42 Template/Users/view.ctp:48
+msgid "User Id"
+msgstr "Identifiant d'utilisateur"
+
+#: Template/Guests/view.ctp:37 Template/Payments/view.ctp:45
+#: Template/Rooms/view.ctp:43 Template/Users/view.ctp:49
+msgid "Room Id"
+msgstr "Identifiant de la chambre"
+
+#: Template/Guests/view.ctp:39 Template/Payments/view.ctp:47
+#: Template/Rooms/view.ctp:45 Template/Users/view.ctp:51
+msgid "Guest Id"
+msgstr "Identifiant invité"
+
+#: Template/Hotels/add.ctp:10 Template/Hotels/edit.ctp:16
+#: Template/Hotels/view.ctp:12 Template/Rooms/add.ctp:11
+#: Template/Rooms/edit.ctp:17 Template/Rooms/index.ctp:11
+#: Template/Rooms/view.ctp:14
+msgid "List Hotels"
+msgstr "Liste Hôtels"
+
+#: Template/Hotels/add.ctp:18
+msgid "Add Hotel"
+msgstr "Ajouter un hôtel"
+
+#: Template/Hotels/edit.ctp:24 Template/Hotels/view.ctp:10
+msgid "Edit Hotel"
+msgstr "Editer Hôtel"
+
+#: Template/Hotels/index.ctp:10 Template/Hotels/view.ctp:13
+#: Template/Rooms/add.ctp:12 Template/Rooms/edit.ctp:18
+#: Template/Rooms/index.ctp:12 Template/Rooms/view.ctp:15
+msgid "New Hotel"
+msgstr "Nouvel Hôtel"
+
+#: Template/Hotels/index.ctp:16
+msgid "Hotels"
+msgstr "Hôtels"
+
+#: Template/Hotels/view.ctp:11
+msgid "Delete Hotel"
+msgstr "Supprimer l'hôtel"
+
+#: Template/Hotels/view.ctp:22
+msgid "Country Code"
+msgstr "Code postal"
+
+#: Template/Hotels/view.ctp:26
+msgid "Name"
+msgstr "Nom"
+
+#: Template/Hotels/view.ctp:34
+msgid "Stars"
+msgstr "Étoiles"
+
+#: Template/Hotels/view.ctp:39
+msgid "Related Rooms"
+msgstr "Chambres connexes"
+
+#: Template/Hotels/view.ctp:44
+msgid "Hotel Id"
+msgstr "Id d'hôtel"
+
+#: Template/Hotels/view.ctp:45 Template/Rooms/view.ctp:28
+msgid "Room Type"
+msgstr "Type de chambre"
+
+#: Template/Layout/error.ctp:35
+msgid "Error"
+msgstr "Erreur"
+
+#: Template/Layout/error.ctp:43
+msgid "Back"
+msgstr "Retour"
+
+#: Template/Payments/add.ctp:18
+msgid "Add Payment"
+msgstr "Ajouter un paiement"
+
+#: Template/Payments/edit.ctp:24 Template/Payments/view.ctp:10
+msgid "Edit Payment"
+msgstr "Modifier le paiement"
+
+#: Template/Payments/index.ctp:16
+msgid "Payments"
+msgstr "Paiements"
+
+#: Template/Payments/view.ctp:11
+msgid "Delete Payment"
+msgstr "Supprimer le paiement"
+
+#: Template/Rooms/add.ctp:20
+msgid "Add Room"
+msgstr "Ajouter une pièce"
+
+#: Template/Rooms/edit.ctp:26 Template/Rooms/view.ctp:10
+msgid "Edit Room"
+msgstr "Modifier la salle"
+
+#: Template/Rooms/index.ctp:18
+msgid "Rooms"
+msgstr "Pièces"
+
+#: Template/Rooms/view.ctp:11
+msgid "Delete Room"
+msgstr "Supprimer la pièce"
+
+#: Template/Rooms/view.ctp:24
+msgid "Hotel"
+msgstr "Hôtel"
+
+#: Template/Users/add.ctp:18
+msgid "Add User"
+msgstr "Ajouter un utilisateur"
+
+#: Template/Users/edit.ctp:24 Template/Users/view.ctp:10
+msgid "Edit User"
+msgstr "Modifier l'utilisateur"
+
+#: Template/Users/index.ctp:16
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: Template/Users/view.ctp:11
+msgid "Delete User"
+msgstr "Supprimer l'utilisateur"
+
+#: Template/Users/view.ctp:22
+msgid "Email"
+msgstr "Email"
+
+#: Template/Users/view.ctp:26
+msgid "Password"
+msgstr "Mot de passe"
+
+#: Template/Users/view.ctp:34
+msgid "Created"
+msgstr "Établi"
+
+#: Template/Users/view.ctp:38
+msgid "Modified"
+msgstr "Modifié"
