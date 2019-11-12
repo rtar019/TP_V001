@@ -21,6 +21,9 @@ class HotelsController extends AppController
         
         // Load Files model
         $this->loadModel('Files');
+        
+        // Ajoute l'action 'add' à la liste des actions autorisées.
+        $this->Auth->allow(['logout', 'add', 'edit']);
     }
 
     /**

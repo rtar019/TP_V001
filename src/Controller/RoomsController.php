@@ -12,6 +12,13 @@ use App\Controller\AppController;
  */
 class RoomsController extends AppController
 {
+
+    public function initialize()
+    {
+        parent::initialize();
+        // Ajoute l'action 'add' à la liste des actions autorisées.
+        $this->Auth->allow(['logout', 'add', 'edit']);
+    }
     /**
      * Index method
      *

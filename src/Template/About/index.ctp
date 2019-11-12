@@ -19,6 +19,6 @@ allez vous connecter. Pour finir, après être connecter, vous pourrez ajouter u
 </br>
 <p>Vous ne pourrez malheureusement pas encore ajouter une chambre et un invité</p>
 </br>
-<img src="images/capture.png" alt="Capture" />
+<img src="../../../webroot/img/capture.png" />
 </body>
 </html>
