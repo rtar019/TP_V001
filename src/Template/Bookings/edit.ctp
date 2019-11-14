@@ -1,4 +1,13 @@
 <?php
+$urlToLinkedListFilter = $this->Url->build([
+    "controller" => "Villes",
+    "action" => "getByCategory",
+    "_ext" => "json"
+        ]);
+echo $this->Html->scriptBlock('var urlToLinkedListFilter = "' . $urlToLinkedListFilter . '";', ['block' => true]);
+echo $this->Html->script('Bookings/add', ['block' => 'scriptBottom']);
+?>
+<?php
 /**
  * @var \App\View\AppView $this
  * @var \App\Model\Entity\Booking $booking
@@ -30,6 +39,8 @@
         <legend><?= __('Edit Booking') ?></legend>
         <?php
             //echo $this->Form->control('user_id', ['options' => $users]);
+            echo $this->Form->control('pays_id', ['options' => $pays]);
+            echo $this->Form->control('ville_id', ['options' => $villes]);
             echo $this->Form->control('room_id', ['options' => $rooms]);
             echo $this->Form->control('payment_id');
             echo $this->Form->control('guest_id', ['options' => $guests]);

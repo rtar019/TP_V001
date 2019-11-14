@@ -61,10 +61,26 @@ class BookingsController extends AppController
             }
             $this->Flash->error(__('The booking could not be saved. Please, try again.'));
         }
+
+        // Bâtir la liste des catégories  
+        $this->loadModel('Pays');
+        $pays = $this->Pays->find('list', ['limit' => 200]);
+
+        // Extraire le id de la première catégorie
+        $pays = $pays->toArray();
+        reset($pays);
+        $pays_id = key($pays);
+
+        // Bâtir la liste des sous-catégories reliées à cette catégorie
+        $villes = $this->Bookings->Villes->find('list', [
+            'conditions' => ['Villes.pays_id' => $pays_id],
+        ]);
+
         $users = $this->Bookings->Users->find('list', ['limit' => 200]);
         $rooms = $this->Bookings->Rooms->find('list', ['limit' => 200]);
         $guests = $this->Bookings->Guests->find('list', ['limit' => 200]);
-        $this->set(compact('booking', 'users', 'rooms', 'guests'));
+
+        $this->set(compact('booking', 'users', 'rooms', 'guests', 'villes', 'pays'));
         $this->set('booking', $booking);
     }
 

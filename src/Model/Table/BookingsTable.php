@@ -59,6 +59,10 @@ class BookingsTable extends Table
         $this->hasMany('Payments', [
             'foreignKey' => 'booking_id'
         ]);
+
+        $this->belongsTo('Villes', [
+            'foreignKey' => 'ville_id'
+        ]);
     }
 
     /**

@@ -56,6 +56,22 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         </ul>
         <div class="top-bar-section">      
             <ul class="right">
+
+            <li><?=
+                $this->Html->link('Listes dynamiques', [
+                    'controller' => 'Bookings',
+                    'action' => 'add'
+                ]);
+                ?>
+            </li>
+            <li><?=
+                $this->Html->link('Autocomplete', [
+                    'controller' => 'Rooms',
+                    'action' => 'add'
+                ]);
+                ?>
+            </li>
+
                 <li><?php
                     $loguser = $this->request->session()->read('Auth.User');
                     if ($loguser) {
