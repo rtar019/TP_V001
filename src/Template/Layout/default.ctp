@@ -59,6 +59,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 
             <li><?=
                 $this->Html->link('Listes dynamiques', [
+                    'prefix' => false,
                     'controller' => 'Bookings',
                     'action' => 'add'
                 ]);
@@ -66,6 +67,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
             </li>
             <li><?=
                 $this->Html->link('Autocomplete', [
+                    'prefix' => false,
                     'controller' => 'Rooms',
                     'action' => 'add'
                 ]);
@@ -76,25 +78,25 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                     $loguser = $this->request->session()->read('Auth.User');
                     if ($loguser) {
                         $user = $loguser['email'];
-                        echo $this->Html->link($user . ' logout', ['controller' => 'Users', 'action' => 'logout']);
+                        echo $this->Html->link($user . ' logout', ['prefix' => false,'controller' => 'Users', 'action' => 'logout']);
                     } else {
-                        echo $this->Html->link('login', ['controller' => 'Users', 'action' => 'login']);
+                        echo $this->Html->link('login', ['prefix' => false,'controller' => 'Users', 'action' => 'login']);
                     }
                 ?></li>
                 <li>
-                    <?= $this->Html->link('Français', ['action' => 'changeLang', 'fr'], ['escape' => false]) ?>
+                    <?= $this->Html->link('Français', ['prefix' => false,'action' => 'changeLang', 'fr'], ['escape' => false]) ?>
                 </li>
 
                 <li>
-                    <?= $this->Html->link('English', ['action' => 'changeLang', 'en_US'], ['escape' => false]) ?>
+                    <?= $this->Html->link('English', ['prefix' => false,'action' => 'changeLang', 'en_US'], ['escape' => false]) ?>
                 </li>
 
                 <li>
-                    <?= $this->Html->link('Allemand', ['action' => 'changeLang', 'al'], ['escape' => false]) ?>
+                    <?= $this->Html->link('Allemand', ['prefix' => false,'action' => 'changeLang', 'al'], ['escape' => false]) ?>
                 </li>
 
                 <li>
-                    <?= $this->Html->link('A propos', ['controller' => 'about', 'action' => 'index']) ?>
+                    <?= $this->Html->link('A propos', ['prefix' => false,'controller' => 'about', 'action' => 'index']) ?>
                 </li>
 
                 <li><a target="_blank" href="https://book.cakephp.org/3.0/">Documentation</a></li>
