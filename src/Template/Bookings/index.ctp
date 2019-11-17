@@ -45,6 +45,7 @@
                 <td><?= h($booking->date_to) ?></td>
                 <td class="actions">
                     <?= $this->Html->link(__('View'), ['action' => 'view', $booking->id]) ?>
+                    <?= $this->Html->link('(pdf)', ['action' => 'view', $booking->id . '.pdf']) ?>
                     <?= $this->Html->link(__('Edit'), ['action' => 'edit', $booking->id]) ?>
                     <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $booking->id], ['confirm' => __('Are you sure you want to delete # {0}?', $booking->id)]) ?>
                 </td>

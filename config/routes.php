@@ -25,6 +25,8 @@ use Cake\Routing\Route\DashedRoute;
 
 Router::extensions(['json', 'xml']);
 
+Router::extensions(['pdf']);
+
 /**
  * The default class to use for all routes
  *

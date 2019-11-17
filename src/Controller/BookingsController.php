@@ -81,7 +81,6 @@ class BookingsController extends AppController
         $guests = $this->Bookings->Guests->find('list', ['limit' => 200]);
 
         $this->set(compact('booking', 'users', 'rooms', 'guests', 'villes', 'pays'));
-        $this->set('booking', $booking);
     }
 
     /**
@@ -91,13 +90,9 @@ class BookingsController extends AppController
      * @return \Cake\Http\Response|null Redirects on successful edit, renders view otherwise.
      * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
      */
-    public function edit($slug)
+    public function edit($id=null)
     {
-        $booking = $this->Bookings
-            //->get($id, ['contain' => []
-            ->findBySlug($slug)
-            ->contain('Tags') // Charge les tags associés
-            ->firstOrFail();
+        $booking = $this->Bookings-get($id);
         
         if ($this->request->is(['patch', 'post', 'put'])) {
             $booking = $this->Bookings->patchEntity($booking, $this->request->getData(), [
@@ -109,13 +104,11 @@ class BookingsController extends AppController
 
                 return $this->redirect(['action' => 'index']);
             }
-            $this->Flash->error(__('The booking could not be saved. Please, try again.'));
         }
         $users = $this->Bookings->Users->find('list', ['limit' => 200]);
         $rooms = $this->Bookings->Rooms->find('list', ['limit' => 200]);
         $guests = $this->Bookings->Guests->find('list', ['limit' => 200]);
         $this->set(compact('booking', 'users', 'rooms', 'guests'));
-        $this->set('booking', $booking);
     }
 
     /**
